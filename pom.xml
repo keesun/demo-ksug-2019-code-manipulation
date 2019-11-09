@@ -18,6 +18,7 @@
     <modules>
         <module>demo-box-lib</module>
         <module>demo-magic</module>
+        <module>demo-magic-agent</module>
     </modules>
 
     <properties>
