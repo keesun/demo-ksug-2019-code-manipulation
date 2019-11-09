@@ -24,6 +24,11 @@
             <artifactId>byte-buddy</artifactId>
             <version>1.10.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.auto.service</groupId>
+            <artifactId>auto-service</artifactId>
+            <version>1.0-rc6</version>
+        </dependency>
     </dependencies>
 
 </project>

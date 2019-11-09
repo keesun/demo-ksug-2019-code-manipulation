@@ -1,12 +1,16 @@
 package me.whiteship.rabbit;
 
+import com.google.auto.service.AutoService;
+
 import javax.annotation.processing.AbstractProcessor;
+import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 import java.util.Set;
 
+@AutoService(Processor.class)
 public class RabbitAnnotationProcessor extends AbstractProcessor {
 
     @Override
