@@ -9,9 +9,9 @@
         <relativePath />
     </parent>
     <groupId>me.whiteship</groupId>
-    <artifactId>demo-box-lib</artifactId>
+    <artifactId>demo-magic-agent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-moja-lib</name>
+    <name>demo-magic-agent</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -20,21 +20,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>me.whiteship</groupId>
-            <artifactId>demo-magic-agent</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.10.1</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <parameters>true</parameters>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

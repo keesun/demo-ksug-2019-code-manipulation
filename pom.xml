@@ -6,7 +6,6 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.0.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.whiteship</groupId>
     <artifactId>demo-ksug-2019-code-manipulation</artifactId>
@@ -18,7 +17,7 @@
     <modules>
         <module>demo-box-lib</module>
         <module>demo-magic</module>
-        <module>demo-magic-agent</module>
+        <module>demo-magic-rabbit-annotation</module>
     </modules>
 
     <properties>
