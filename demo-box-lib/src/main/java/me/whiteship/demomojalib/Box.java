@@ -2,10 +2,10 @@ package me.whiteship.demomojalib;
 
 import me.whiteship.rabbit.Rabbit;
 
-@Rabbit
+@Rabbit(value = "Hello Rabbit")
 public class Box {
 
-    public final String open() {
+    public String open() {
         return "";
     }
 }
